@@ -1,3 +1,7 @@
+/* =========================== */
+/* NAVBAR */
+/* =========================== */
+
 .navspace {
     margin-left: 30rem;
 }
@@ -5,13 +9,47 @@
 .navspace li {
     margin-left: 10px;
     font-family: "Raleway";
+    font-weight: 700;
 }
 
 .navbar {
     background: transparent;
 }
 
-#example {
-    height: 1000px;
+/* =========================== */
+/* NAVBAR */
+/* =========================== */
+
+
+#vant-background {
+    height: 850px;
     background: white;
+}
+
+.vant-heading {
+    margin-top: 250px;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+}
+
+.vant-subtitle {
+    margin-top: -20px;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+}
+
+.vant-feature {
+    display: none;
+}
+
+.vant-features {
+    margin-top: 50px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
 }
