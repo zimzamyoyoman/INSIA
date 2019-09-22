@@ -1,0 +1,17 @@
+.navspace {
+    margin-left: 30rem;
+}
+
+.navspace li {
+    margin-left: 10px;
+    font-family: "Raleway";
+}
+
+.navbar {
+    background: transparent;
+}
+
+#example {
+    height: 1000px;
+    background: white;
+}
