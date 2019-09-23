@@ -313,9 +313,11 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
 #industries {
     position: relative;
     z-index: 0;
-    height: 700px;
-    background-color: #F2F3F4;
+    height: 900px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='69' height='34.5' viewBox='0 0 69 34.5'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.19' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='2' height='2' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%23ffffff' stroke-width='0.19'%3E%3Crect fill='%23fafafa' width='1' height='1'/%3E%3Crect fill='%23ffffff' width='1' height='1' x='1' y='1'/%3E%3Crect fill='%23f5f5f5' width='1' height='1' y='1'/%3E%3Crect fill='%23f0f0f0' width='1' height='1' x='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='b' width='5' height='11' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ebebeb'%3E%3Cuse xlink:href='%23s' x='2' y='0'/%3E%3Cuse xlink:href='%23s' x='4' y='1'/%3E%3Cuse xlink:href='%23s' x='1' y='2'/%3E%3Cuse xlink:href='%23s' x='2' y='4'/%3E%3Cuse xlink:href='%23s' x='4' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='8'/%3E%3Cuse xlink:href='%23s' x='3' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='7' height='7' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='3' y='4'/%3E%3Cuse xlink:href='%23s' x='5' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='11' height='5' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ffffff'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='6' y='3'/%3E%3Cuse xlink:href='%23s' x='8' y='2'/%3E%3Cuse xlink:href='%23s' x='3' y='0'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse xlink:href='%23s' x='8' y='3'/%3E%3Cuse xlink:href='%23s' x='4' y='2'/%3E%3Cuse xlink:href='%23s' x='5' y='4'/%3E%3Cuse xlink:href='%23s' x='10' y='0'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='23' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23BA7'%3E%3Cuse xlink:href='%23s' x='2' y='5'/%3E%3Cuse xlink:href='%23s' x='23' y='13'/%3E%3Cuse xlink:href='%23s' x='4' y='18'/%3E%3Cuse xlink:href='%23s' x='35' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='61' height='31' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23BA7'%3E%3Cuse xlink:href='%23s' x='16' y='0'/%3E%3Cuse xlink:href='%23s' x='13' y='22'/%3E%3Cuse xlink:href='%23s' x='44' y='15'/%3E%3Cuse xlink:href='%23s' x='12' y='11'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='69' height='34.5'/%3E%3Crect fill='url(%23b)' width='69' height='34.5'/%3E%3Crect fill='url(%23c)' width='69' height='34.5'/%3E%3Crect fill='url(%23d)' width='69' height='34.5'/%3E%3Crect fill='url(%23e)' width='69' height='34.5'/%3E%3Crect fill='url(%23f)' width='69' height='34.5'/%3E%3C/svg%3E");
     background-attachment: fixed;
+    background-size: cover;
 }
 
 #industriescontainer {
@@ -329,11 +331,11 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     background-color: white;
     position: absolute;
     z-index: 1;
-    top: -180px;
+    /* top: -180px; */
     left: 100px;
     width: 20px;
-    height: 450px;
-    background-attachment: fixed; 
+    height: 250px;
+    /* background-attachment: fixed;  */
     background-color: #000000;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 } 
@@ -358,13 +360,13 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     left: 100px;
     width: 1040px;
     height: 350px;
-    background-attachment: fixed; 
+    /* background-attachment: fixed;  */
     background-color: #1B1B1B;
     /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
 } 
 
 .industryimages {
-    background: white;
+    background: #F2F3F4;
     height: 200px;
     border: 2px solid #F2F3F4;
     margin-top: 50px;
@@ -379,3 +381,95 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     color: #F2F3F4;
     text-transform: uppercase;
 }
+
+#industries-line2 {
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 550px;
+    left: 767.5px;
+    width: 3px;
+    height: 350px;
+  background-color:#34435e;
+}
+
+#steps {
+    position: relative;
+    z-index: 0;
+    height: 700px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='69' height='34.5' viewBox='0 0 69 34.5'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.19' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='2' height='2' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%23ffffff' stroke-width='0.19'%3E%3Crect fill='%23fafafa' width='1' height='1'/%3E%3Crect fill='%23ffffff' width='1' height='1' x='1' y='1'/%3E%3Crect fill='%23f5f5f5' width='1' height='1' y='1'/%3E%3Crect fill='%23f0f0f0' width='1' height='1' x='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='b' width='5' height='11' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ebebeb'%3E%3Cuse xlink:href='%23s' x='2' y='0'/%3E%3Cuse xlink:href='%23s' x='4' y='1'/%3E%3Cuse xlink:href='%23s' x='1' y='2'/%3E%3Cuse xlink:href='%23s' x='2' y='4'/%3E%3Cuse xlink:href='%23s' x='4' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='8'/%3E%3Cuse xlink:href='%23s' x='3' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='7' height='7' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='3' y='4'/%3E%3Cuse xlink:href='%23s' x='5' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='11' height='5' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ffffff'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='6' y='3'/%3E%3Cuse xlink:href='%23s' x='8' y='2'/%3E%3Cuse xlink:href='%23s' x='3' y='0'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse xlink:href='%23s' x='8' y='3'/%3E%3Cuse xlink:href='%23s' x='4' y='2'/%3E%3Cuse xlink:href='%23s' x='5' y='4'/%3E%3Cuse xlink:href='%23s' x='10' y='0'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='23' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23BA7'%3E%3Cuse xlink:href='%23s' x='2' y='5'/%3E%3Cuse xlink:href='%23s' x='23' y='13'/%3E%3Cuse xlink:href='%23s' x='4' y='18'/%3E%3Cuse xlink:href='%23s' x='35' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='61' height='31' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23BA7'%3E%3Cuse xlink:href='%23s' x='16' y='0'/%3E%3Cuse xlink:href='%23s' x='13' y='22'/%3E%3Cuse xlink:href='%23s' x='44' y='15'/%3E%3Cuse xlink:href='%23s' x='12' y='11'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='69' height='34.5'/%3E%3Crect fill='url(%23b)' width='69' height='34.5'/%3E%3Crect fill='url(%23c)' width='69' height='34.5'/%3E%3Crect fill='url(%23d)' width='69' height='34.5'/%3E%3Crect fill='url(%23e)' width='69' height='34.5'/%3E%3Crect fill='url(%23f)' width='69' height='34.5'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Raleway";
+    font-weight: 600;
+}
+
+ main {
+	 min-width: 300px;
+	 max-width: 500px;
+	 margin: auto;
+}
+.step {
+	 font-size: 1em;
+	 line-height: 1.75em;
+	 border-top: 3px solid;
+	 border-image: #1B1B1B;
+	 border-image-slice: 1;
+	 border-width: 3px;
+	 margin: 0;
+	 padding: 40px;
+	 counter-increment: section;
+	 position: relative;
+     color: #34435e;
+     font-family: "Raleway";
+}
+ .step:before {
+	 content: counter(section);
+	 position: absolute;
+	 border-radius: 50%;
+	 padding: 20px;
+	 height: 1.25em;
+	 width: 1.25em;
+	 background-color: #34435e;
+	 text-align: left;
+	 line-height: 0.25em;
+	 color: #fff;
+     font-size: 2.5em;
+     font-family: "Raleway";
+}
+ .step:nth-child(odd) {
+	 border-right: 3px solid;
+	 padding-left: 0;
+}
+ .step:nth-child(odd):before {
+	 left: 100%;
+	 margin-left: -20px;
+}
+ .step:nth-child(even) {
+	 border-left: 3px solid;
+	 padding-right: 0;
+}
+ .step:nth-child(even):before {
+	 right: 100%;
+	 margin-right: -20px;
+}
+ .step:first-child {
+	 border-top: 0;
+	 border-top-right-radius: 0;
+	 border-top-left-radius: 0;
+}
+ .step:last-child {
+	 border-bottom-right-radius: 0;
+	 border-bottom-left-radius: 0;
+}
+
+#stepsheading {
+    /* margin-top: 160px; */
+    margin-left: 710px;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 3rem;
+    color: #141414;
+}
+ 
