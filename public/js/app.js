@@ -21,20 +21,21 @@ function typeEffect(element, speed) {
   }, speed);
 }
 
-
 // application
 var speed = 75;
 var featureSpeed = 15;
 var vantSub = document.querySelector('#vant-subtitle');
-var vantFeature = document.querySelector('.vant-feature');
+// var vantFeature = document.querySelector('.vant-feature');
 var delay = vantSub.innerHTML.length * speed + speed;
 
 // type affect to header
 typeEffect(vantSub, speed);
 
 //type effect for feature 1
-setTimeout(function () {
-  vantFeature.style.display = "inline-block";
-  typeEffect(vantFeature, featureSpeed);
-}, delay);
+// setTimeout(function () {
+//   vantFeature.style.display = "inline-block";
+//   typeEffect(vantFeature, featureSpeed);
+// }, delay);
+
+
 
