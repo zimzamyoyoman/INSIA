@@ -626,13 +626,47 @@ section.pricing {
 }
 
 .highlight:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
     opacity: 0.9;
 }
 
 .highlight {
     transition: all ease 500ms;
 }
+
+.footer {
+    background: #444655;
+    color: white;
+    font-family: "Raleway";
+}
+.footer .links ul {
+    list-style-type: none;
+}
+.footer .links li a {
+    color: white;
+    transition: color 0.2s;
+}
+.footer .links li a:hover {
+    text-decoration: none;
+    color: #A8AABC;
+}
+.footer .about-company i {
+    font-size: 25px;
+}
+.footer .about-company a {
+    color: white;
+    transition: color 0.2s;
+}
+.footer .about-company a:hover {
+    color: #A8AABC;
+}
+.footer .location i {
+    font-size: 18px;
+}
+.footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
 
 
 
