@@ -21,6 +21,10 @@
     background: transparent;
 }
 
+#insialogo {
+    height: 150px;
+}
+
 /* =========================== */
 /* VANT*/
 /* =========================== */
@@ -866,6 +870,11 @@ section.pricing {
 .footer .copyright p {
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
+
+#insialogofooter {
+    height: 300px;
+}
+
 
 
 
