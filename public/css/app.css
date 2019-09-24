@@ -360,9 +360,10 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     left: 100px;
     width: 1040px;
     height: 350px;
-    /* background-attachment: fixed;  */
     background-color: #1B1B1B;
-    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
+    -webkit-box-shadow: 15px 13px 21px -8px rgba(48,48,48,1);
+    -moz-box-shadow: 15px 13px 21px -8px rgba(48,48,48,1);
+    box-shadow: 15px 13px 21px -8px rgba(48,48,48,1);
 } 
 
 .industryimages {
@@ -472,4 +473,100 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     font-size: 3rem;
     color: #141414;
 }
+
+.endstep {
+    padding-bottom: 300px;
+}
+
+/* ======================================= */
+/* PRICING */
+/* ======================================= */
+
+#pricingheading {
+    margin-top: 150px;
+    margin-left: 688px;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#pricing {
+    height: 700px;
+    /* margin-top: 40px; */
+    background-color: #007bff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d36be7' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ff917e' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e069dc' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23ff9a76' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ea68d2' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23ffa46f' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f368c7' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ffaf68' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23fa69bd' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23ffba63' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ff6bb3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23ffc65f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    font-family: "Raleway";
+}
+
+section.pricing {
+    height: 800px;
+    background-color: #007bff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d36be7' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ff917e' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e069dc' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23ff9a76' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ea68d2' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23ffa46f' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f368c7' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ffaf68' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23fa69bd' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23ffba63' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ff6bb3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23ffc65f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    /* background-attachment: fixed; */
+    background-size: cover;
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+  
+
+ 
  
