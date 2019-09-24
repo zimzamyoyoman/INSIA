@@ -552,8 +552,14 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     background: #F2F3F4;
     height: 200px;
     border: 2px solid #F2F3F4;
-    margin-top: 50px;
-    margin-left: 10px;
+    /* margin-top: 50px;
+    margin-left: 10px; */
+}
+
+#industrytext {
+    font-family: "Raleway";
+  background-color: #1B1B1B;
+
 }
 
 .industrysubtext {
