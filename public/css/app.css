@@ -35,16 +35,18 @@
     margin-top: 250px;
     font-family: "Roboto";
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
 }
 
 .vant-subtitle {
-    margin-top: -20px;
+    margin-top: -5px;
     font-family: "Raleway";
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
+    line-height: 23px;
+    width: 500px;
 }
 
 .vant-feature {
@@ -55,8 +57,14 @@
     margin-top: 50px;
     font-family: "Raleway";
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: white;
+    width: 500px;
+}
+
+.headimage {
+    /* margin-left: 50px; */
+    margin-top: 200px;
 }
 
 .banner {
