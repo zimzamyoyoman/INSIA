@@ -625,6 +625,15 @@ section.pricing {
   color: white;
 }
 
+.highlight:hover {
+    transform: scale(1.25);
+    opacity: 0.9;
+}
+
+.highlight {
+    transition: all ease 500ms;
+}
+
 
 
 
