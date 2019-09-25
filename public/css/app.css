@@ -32,7 +32,6 @@
 /* VANT*/
 /* =========================== */
 
-
 #vant-background {
     height: 850px;
     background: white;
@@ -794,6 +793,49 @@ section.pricing {
     font-weight: 500;
     font-size: 1rem;
     color: white;
+}
+
+#functions {
+    height: 700px;
+    background-color: #D3D8E4;
+}
+
+#functionsheading {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 3rem;
+    color: black;
+    text-shadow: #1B1B1B;
+}
+
+.functionsrow {
+    margin-top: 40px;
+    width: 1400px;
+    height: 350px;
+    /* padding: 20px; */
+}
+
+.functionscard {
+    margin: 10px;
+    width: 16rem;
+    border: none;
+    background: transparent;
+    font-family: "Raleway";
+    transition: 0.4s ease-out;
+}
+
+.functionscard:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+    /* width: 500px;
+    height: 500px; */
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+
+.functionscard img {
+    align-content: center;
+    width: 73px;
 }
 
 #requestdemo {
