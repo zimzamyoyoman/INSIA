@@ -144,15 +144,15 @@
 #why-heading {
     margin-top: 100px;
     font-family: "Raleway";
-    font-weight: 400;
+    font-weight: 600;
     font-size: 3rem;
 }
 
 .why-feature-1 {
     margin-top: 20px;
     font-family: "Raleway";
-    font-weight: 300;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 1.9rem;
 }
 
 .features {
@@ -277,6 +277,8 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
 
 #feature2-heading {
     margin: 50px;
+    font-weight: 500;
+    font-size: 1.9rem;
 }
 
 .feature2-subtext {

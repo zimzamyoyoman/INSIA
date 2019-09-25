@@ -19,15 +19,15 @@ app.post("/requestdemo", function (req, res) {
     var jobrole = req.body.jobrole;
 
     res.status(204).send();
-    // res.render("landing");
+    
 });
 
 app.post("/callback", function (req, res) {
     var name = req.body.tname;
     var number = req.body.number;
-    
+
     res.status(204).send();
-    // res.render("landing");
+
 });
 
 app.use(express.static("public"));
