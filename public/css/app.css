@@ -2,10 +2,10 @@
 /* NAVBAR */
 /* =========================== */
 
-.sticky-top.scrolled {
+/* .sticky-top.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
-  }
+  } */
 
 .navspace {
     margin-left: 30rem;
@@ -20,11 +20,12 @@
 }
 
 .navbar {
-    background: transparent;
+    background-color: #262E34;
+    /* background: url("../images/navbarbcg.png"); */
 }
 
 #insialogo {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     height: 70px;
 }
 
