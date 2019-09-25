@@ -530,10 +530,10 @@
 
     <div class="row">
         <p id="requestdemo-subtitle"> <button type="button" class="btn btn-outline-light" data-toggle="modal"
-                data-target="#exampleModal"> REQUEST DEMO</button> </p>
+                data-target="#requestdemomodal"> REQUEST DEMO</button> </p>
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="requestdemomodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -544,42 +544,49 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="/" id="requestdemoform" method="POST" onSubmit="$('.modal').modal('toggle');
+                         setTimeout(function(){
+                             alert('Your request has been registered with us.');
+                        }, 500);">
                         <div class="form-group">
                             <label for="firstname">First Name</label>
-                            <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp"
-                                placeholder="Enter First Name" required>
+                            <input type="text" class="form-control" id="firstname" placeholder="Enter First Name"
+                                name="firstname" required>
                         </div>
 
                         <div class="form-group">
                             <label for="lastname">Last Name</label>
-                            <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp"
-                                placeholder="Enter Last Name" required>
+                            <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name"
+                                name="lastname" required>
                         </div>
 
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"
+                                name="email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
                         <div class="form-group">
                             <label for="company">Company</label>
-                            <input type="text" class="form-control" id="company" placeholder="Company" required>
+                            <input type="text" class="form-control" id="company" placeholder="Company" name="company"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="workphone">Work Phone</label>
-                            <input type="text" class="form-control" id="workphone" placeholder="Work Phone" required>
+                            <input type="text" class="form-control" id="workphone" placeholder="Work Phone"
+                                name="workphone" required>
                         </div>
 
                         <div class="form-group">
                             <label for="jobrole">Job Role</label>
-                            <input type="text" class="form-control" id="jobrole" placeholder="Job Role" required>
+                            <input type="text" class="form-control" id="jobrole" placeholder="Job Role" name="jobrole"
+                                required>
                         </div>
 
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-outline-dark" data-dismiss="modal">Submit</button>
+                            <button type="submit" name="btnSubmit" id="requestdemosubmit"
+                                class="btn btn-outline-dark">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -603,9 +610,18 @@
             <div class="col-lg-3 col-xs-12 links">
                 <h4 class="mt-lg-0 mt-sm-3">Callback</h4>
                 <ul class="m-0 p-0">
-                    <input type="text">
-                    <p id="requestdemo-subtitle"> <button class="btn btn-outline-light"> PRESS FOR CALLBACK </button>
-                    </p>
+                    <form action="/" id="callbackform" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                                placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Contact Number</label>
+                            <input type="text" class="form-control" id="number" placeholder="Enter Contact Number">
+                        </div>
+                        <button class="btn btn-outline-light">PRESS FOR CALLBACK </button>
+                    </form>
                 </ul>
             </div>
             <div class="col-lg-4 col-xs-12 location">
@@ -616,8 +632,8 @@
                     Whitefield
                     Bangalore - 560066
                 </p>
-                <p class="mb-0"><i class="fa fa-phone mr-3"></i>+91 – 9686682118</p>
-                <p><i class="fa fa-envelope-o mr-3"></i>hello@forty4hz.com
+                <p class="mb-0"><i class="fa fa-phone mr-3"></i> Mobile Number: +91 – 9686682118</p>
+                <p><i class="fa fa-envelope-o mr-3"></i>E-Mail: hello@forty4hz.com
                 </p>
             </div>
         </div>

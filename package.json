@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/zimzamyoyoman/INSIA#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
+    "jquery": "^3.4.1",
     "nodemon": "^1.19.2",
     "typed.js": "^2.0.11"
   }

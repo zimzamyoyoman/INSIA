@@ -38,5 +38,3 @@ setTimeout(function () {
   typeEffect(vantFeature, featureSpeed);
 }, delay);
 
-
-
