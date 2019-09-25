@@ -50,7 +50,7 @@
     margin-top: -5px;
     font-family: "Raleway";
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: white;
     line-height: 23px;
     width: 500px;
@@ -94,6 +94,18 @@ div.laptop-wrapper video {
     height: 100%;
 }
 
+/* typed.js */
+
+#typed {
+    margin-top: 20px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    width: 500px;
+    line-height: 23px;
+}
+
 /*Custom cursor animation*/
 @keyframes blink{
     0% { opacity:1; }
@@ -110,6 +122,8 @@ div.laptop-wrapper video {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+
 
 /* =========================== */
 /* WHY INSIA*/
