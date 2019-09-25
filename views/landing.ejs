@@ -544,7 +544,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="/" id="requestdemoform" method="POST" onSubmit="$('.modal').modal('toggle');
+                    <form action="/requestdemo" id="requestdemoform" method="POST" onSubmit="$('.modal').modal('toggle');
                          setTimeout(function(){
                              alert('Your request has been registered with us.');
                         }, 500);">
@@ -610,15 +610,19 @@
             <div class="col-lg-3 col-xs-12 links">
                 <h4 class="mt-lg-0 mt-sm-3">Callback</h4>
                 <ul class="m-0 p-0">
-                    <form action="/" id="callbackform" method="POST">
+                    <form action="/callback" id="callbackform" method="POST" onSubmit="
+                        setTimeout(function(){
+                            alert('Your request has been registered with us.');
+                       }, 500);
+                       document.getElementById('callbackform').reset();">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                            <input type="text" class="form-control" id="name" name="name"
                                 placeholder="Enter Name">
                         </div>
                         <div class="form-group">
                             <label for="number">Contact Number</label>
-                            <input type="text" class="form-control" id="number" placeholder="Enter Contact Number">
+                            <input type="text" class="form-control" id="number" name="number" placeholder="Enter Contact Number">
                         </div>
                         <button class="btn btn-outline-light">PRESS FOR CALLBACK </button>
                     </form>
