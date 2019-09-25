@@ -74,48 +74,26 @@
     margin-top: 200px;
 }
 
-.banner {
-	display: block;
-	min-height: 200px;
-	width: 100%;
-	position: relative;
+/* LAPTOP VIDEO  */
+div.laptop-wrapper {
+    position: relative;
+    /* padding-top: 25px; */
+    padding-bottom: 67.5%;
+    /* margin: 0; */
+    height: 0;
 }
-.typed_wrap {
-	display: block;
-	border: 4px solid #ecf0f1;
-	width: 290px;
-	height: auto;
-	padding: 30px;
-	
-	/*centers it in the .banner*/
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	-o-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
+div.laptop-wrapper video {
+    box-sizing: border-box;
+    background: url(https://i.stack.imgur.com/zZNgk.png) center center no-repeat;
+    background-size: contain;
+    padding: 11.9% 15.5% 14.8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.typed_wrap h1 {
-	display: inline;
-}
-
-/*Add custom cursor so it auto inherits font styles*/
-.typed::after {
-	content: '|';
-	display: inline;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
-}
-
-/*Removes cursor that comes with typed.js*/
-.typed-cursor{
-   opacity: 0;
-	display: none;
-}
 /*Custom cursor animation*/
 @keyframes blink{
     0% { opacity:1; }
