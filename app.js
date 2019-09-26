@@ -30,8 +30,10 @@ app.post("/callback", function (req, res) {
 
 });
 
-app.use(express.static("public"));
+app.use(express.static(__dirname + '/public'));
 
-app.listen(8080, function () {
-    console.log("Server is running on PORT 8080!");
+let port = process.env.PORT || 8081;
+
+app.listen(port, function () {
+    console.log("Server is running on PORT " + port);
 });
