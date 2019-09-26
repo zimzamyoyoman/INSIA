@@ -2,18 +2,13 @@ html {
     scroll-behavior: smooth;
   }
 
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 /* =========================== */
 /* NAVBAR */
 /* =========================== */
-
-/* .sticky-top.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  } */
 
 .navspace {
     margin-left: 30rem;
