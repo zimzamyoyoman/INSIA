@@ -454,8 +454,6 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
       width: 640px;
   }
 
-  /* ===================================== */
-
 .featureheader {
     height: 200px;
 }
@@ -504,6 +502,8 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     font-size: 1.1rem;
     margin-bottom: 20px;
 }
+
+/* INDUSTRY SECTION */
 
 #industries {
     position: relative;
@@ -583,6 +583,8 @@ box-shadow: 10px 10px 20px 0px rgba(130,130,130,0.76);
     color: #F2F3F4;
     text-transform: uppercase;
 }
+
+/* STEPS */
 
 #industries-line2 {
     background-color: white;
@@ -768,6 +770,8 @@ section.pricing {
     }
   }
 
+  /* COMING SOON (CURRENTLY COMMENTED OUT  */
+
   #comingsoon {
       height: 425px;
       /* height: 625px; */
@@ -792,6 +796,8 @@ section.pricing {
     font-size: 1rem;
     color: white;
 }
+
+/* FUNCTIONS SECTION */
 
 #functions {
     height: 700px;
@@ -835,6 +841,8 @@ section.pricing {
     align-content: center;
     width: 73px;
 }
+
+/* REQUEST DEMO SECTION (SAME COLOUR AS FOOTER) */
 
 #requestdemo {
     height: 225px;
@@ -884,6 +892,8 @@ section.pricing {
 .highlight {
     transition: all ease 500ms;
 }
+
+/* FOOTER */
 
 .footer {
     background: #444655;
